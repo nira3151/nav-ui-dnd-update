@@ -1,0 +1,54 @@
+.container {
+    height: 29vh;
+    width: 100%;
+    margin-top: 35px;
+    display: grid;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    cursor: move;
+    background-color: rgb(26, 21, 20);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px ;
+  }
+  
+  .cell {
+    background: rgb(255, 252, 252);
+    font-size: 20px;
+    text-align: left;
+    padding-left: 15px;
+    margin: 6px;
+  }
+  
+  .btn1 {
+    width: 152px;
+    padding-top: 3px;
+    border-radius: 5px;
+    border-width: 1px;
+    height: 30px;
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(255, 251, 251);
+    margin-right: 30px;
+    background-color:black;
+    align-content: center;
+    /* margin-left: 25px */
+  }
+  
+  .btn2 {
+    width: 152px;
+    /* padding-top: 3px; */
+    border-radius: 5px;
+    border-width: 1px;
+    height: 30px;
+    /* margin-top: 5px; */
+    font-size: 15px;
+    color: rgb(255, 251, 251);
+    /* margin-right: 10px; */
+    background-color:black;
+    align-content: center;
+    padding: auto;
+  }
+  
